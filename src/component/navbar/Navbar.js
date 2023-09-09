@@ -1,15 +1,15 @@
-import './navbar.css';
+import './Navbar.css';
+import {Link} from 'react-router-dom';
 export default function Navbar()
 {
     return(
        <div className='navbar'>
-       <ul class="nav">
-       <li class="item">Home</li>
-       <li class="item">Contact</li>
-       <li class="item">About us</li>
-       <li class="item">Login</li>
-
-       </ul>
+       <Link to="/" className='item'>Home</Link>
+      <Link to="/product" className='item'>Products</Link>
+      <Link to="/contact" className='item'>Contact Us</Link>
+      <Link to="/contact" className='item'>Login</Link>
+      <Link to="/contact" className='item'>Sign up</Link>
+      
         
        </div>
     );

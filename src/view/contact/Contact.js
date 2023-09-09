@@ -1,7 +1,6 @@
-import Button from "../../component/button/Button";
-import Footer from "../../component/footer/footer";
-
-import Navbar from "../../component/navbar/Navbar";
+import Button from "./../../component/Button/Button";
+import Footer from "./../../component/Footer/Footer"
+import Navbar from "../../component/Navbar/Navbar";
 
 export default function Contact()
 {

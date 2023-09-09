@@ -1,10 +1,16 @@
-import './card.css';
-export default function Card({text,clg})
+import Button from './../Button/Button';
+import './Card.css';
+
+export default function Card({pname,price,img,size})
 {
     return(
        <div className='card'>
-        <h4>{text}</h4>
-        <h4>{clg}</h4>
+         <img src={img} className='img'/>
+        <p className="pname">{pname}</p>
+        <h4 className="price">price :{price}     <span className="offer"> offer  50% </span></h4>
+        <p className='size'>{size}</p>
+        <Button text="Buy now"/>
+       
        </div>
     );
 }
