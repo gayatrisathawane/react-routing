@@ -1,6 +1,7 @@
 import Navbar from "../../component/navbar/Navbar";
 import Card from "../../component/card/Card";
 import Button from "../../component/button/Button";
+import Footer from "../../component/footer/footer"
 
 export default function Home()
 {
@@ -14,6 +15,7 @@ export default function Home()
         <Button text="Click me"/>
         <Button text="Cancle"/>
         <Button text="Buy Now"/>
+        <Footer/>
 
 
         </>

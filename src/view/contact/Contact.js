@@ -1,4 +1,5 @@
 import Button from "../../component/button/Button";
+import Footer from "../../component/footer/footer";
 
 import Navbar from "../../component/navbar/Navbar";
 
@@ -11,6 +12,7 @@ export default function Contact()
      <label>Contact:</label> <input type="text"/>
      <label>Addres:</label> <input type="text"/>
      <Button text="Send Message" />
+     <Footer/>
       </>
     );
 }
